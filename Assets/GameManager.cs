@@ -42,9 +42,9 @@ public class GameManager : MonoBehaviour
 
 public class Save
 {
-    public int number;
-    public Vector3 vector3;
-    public bool isBool;
+    public int number = 56;
+    public Vector3 vector3  = new Vector3(3.3f,2.2f,1.2f);
+    public bool isBool = true;
 
     public override string ToString()
     {
